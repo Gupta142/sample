@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hello, Welcome to React</h1>
+      <p>Adding a new line in new-features branch</p>
       <button type="button" onClick={parentBtn} >parent btn</button>
       <Child childBtn = {childBtn}/>
     </div>
